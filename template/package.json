@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "dev": "gulp --debug",
-    "build": "gulp -p"
+    "build": "gulp webpack -p"
   },
   "author": "",
   "license": "ISC",
