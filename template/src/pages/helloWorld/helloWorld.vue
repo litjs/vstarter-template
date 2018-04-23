@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>hello world!</div>
-    <div>\{{index.birthday\}}</div>
+    <div>\{{index.birthday}}</div>
     <div>
       <img :src="logo" alt="">
     </div>
