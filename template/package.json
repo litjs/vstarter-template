@@ -7,6 +7,20 @@
     "dev": "gulp --debug",
     "build": "gulp webpack -p"
   },
+  "babel":{
+    "presets": ["env"],
+    "plugins": [
+      "transform-vue-jsx",
+      "transform-object-rest-spread",
+      "syntax-async-functions",
+      ["transform-runtime", {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }]
+    ]
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
